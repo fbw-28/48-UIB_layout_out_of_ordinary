@@ -25,13 +25,14 @@ html, body {
     }    
     
     .box1 {
+        flex-grow: 50%;
         background-color:dodgerblue;
         
        
     }
     .box2 {
         background-color: rgb(190, 178, 178);
-         flex-grow: 10;
+         
         
     }
 
@@ -48,12 +49,12 @@ html, body {
     }
     .box5 {
         background-color:darkgrey ;
-        flex-grow: 10;
+        width: 100%;
         
     }
     .box6 {
         background-color:red ;
-        
+        width: 100%;
     }
 
 
