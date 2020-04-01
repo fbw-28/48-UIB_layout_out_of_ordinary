@@ -1,0 +1,63 @@
+html, body {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 100px;
+}
+
+
+.genres{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.Action{
+    flex-grow: 1;
+    text-align: center;
+    flex-basis: 500px;
+    height: 100px;
+    background-color: dodgerblue;
+    flex-wrap: wrap;
+}
+
+.Thriller{
+    flex-grow: 10;
+    text-align: center;
+    flex-basis: 500px;
+    height: 100px;
+    background-color: rgb(190, 178, 178);
+}
+
+.Comedy{
+    flex-grow: 10;
+    text-align: center;
+    flex-basis: 500px;
+    height: 100px;
+    background-color: rgb(255, 214, 30);
+}
+
+.Horror{
+    color: #fff;
+    flex-grow: 1;
+    text-align: center;
+    flex-basis: 500px;
+    height: 100px;
+    background-color: black;
+}
+
+.Drama{
+    flex-grow: 1;
+    text-align: center;
+    flex-basis: 500px;
+    height: 100px;
+    background-color: darkgrey;
+}
+
+.Romance{
+    flex-grow: 1;
+    text-align: center;
+    flex-basis: 500px;
+    height: 100px;
+    background-color: red;
+}
