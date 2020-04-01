@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.genres {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+    
+}
+
+.box {
+    width: 500px;
+    height: 100px;
+    flex-grow: 1;
+    text-align: center;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+
+
+.one {
+    background-color: dodgerblue;
+    
+}
+
+.two {
+    background-color: rgb(190, 178, 178);
+    flex-grow: 10;
+   
+}
+
+.three {
+    background-color: rgb(255, 214, 30);
+    flex-grow: 10;
+    
+    
+}
+
+.four {
+    background-color: black;
+    color: white;
+   
+}
+
+.five {
+    background-color: darkgray;
+   
+}
+
+.six {
+    background-color: red;
+}
