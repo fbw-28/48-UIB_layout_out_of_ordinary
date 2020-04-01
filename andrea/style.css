@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex {
+    flex-basis: 500px;
+    height: 100px;
+    flex-grow: 1;
+    text-align: center;
+    line-height: 100px;
+}
+.item1 {
+    background-color: dodgerblue;
+}
+
+.item2 {
+    background-color: rgb(190, 178, 178);
+    flex-grow: 10;
+
+}
+
+.item3 {
+    background-color: rgb(255, 214, 30);
+    flex-grow: 10;
+}
+
+.item4 {
+    background-color: black;
+    color: white;
+}
+
+.item5 {
+    background-color: darkgrey;
+}
+
+.item6 {
+    background-color: red;
+}
